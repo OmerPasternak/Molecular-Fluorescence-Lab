@@ -28,12 +28,16 @@ Reads data from each sheet, focusing on a specific wavelength range.
 Calculates the integral of the fluorescence intensity curve (intensity vs wavelength) for each sample sheet. This integral, essentially the area under the curve, represents the total amount of fluorescence emitted by that sample across the analyzed wavelengths.
 Calculates the logarithm of integral values for each group (each fluorophore).
 Visualizes these log-transformed integrals to compare fluorescence intensity trends between different fluorophore groups
-Part a:
+Part b:
 
 Fluorescence
 This code takes a picture, gives it a color scale, and then after a range was chosen fit a linear fit to the log of the magnitude over the range.
+
 figToJpeg
 This code converts .fig files from a specified folder to .jpeg files and puts them in a designate folder.
+
+ExcelScatter
+This code takes an excel file and returns a scatter plot for the chosen columns.
 
 Part c:
 
