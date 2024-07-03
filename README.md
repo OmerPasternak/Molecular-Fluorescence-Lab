@@ -39,6 +39,9 @@ This code converts .fig files from a specified folder to .jpeg files and puts th
 ExcelScatter
 This code takes an excel file and returns a scatter plot for the chosen columns.
 
+Excel linear
+This code takes an excel file and returns a linear for for selected points in each sheet, while recording the fitting coefficients.
+
 Part c:
 
 part_C_plotting_and_saving
